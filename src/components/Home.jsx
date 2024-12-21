@@ -1,7 +1,11 @@
 const Home = () => (
   <section
     id="home"
-    className="h-screen bg-[url('./BG.jpg')] bg-cover bg-center flex justify-center items-center"
+    className="h-screen bg-cover bg-center flex justify-center items-center"
+    style={{
+      backgroundImage: "url('/BG.jpg')",
+      backgroundColor: '#000', 
+    }}
   >
     <div className="p-6 sm:p-8 md:p-12 lg:p-16 text-center max-w-2xl mx-auto">
       <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-yellow-300 mb-6 leading-tight">
